@@ -1,3 +1,4 @@
+#code test git lab
 $result = Get-NetAdapter
 $result.Name + $result.LinkSpeed | Out-GridView
 
@@ -7,6 +8,7 @@ $result.Name + $result.LinkSpeed | Out-GridView
  $resultComputer = Get-MpComputerStatus
 
  $resultComputer.ComputerID
+
  
 
 
