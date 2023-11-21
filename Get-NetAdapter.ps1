@@ -9,7 +9,7 @@ $result.Name + $result.LinkSpeed | Out-GridView
 
  $resultComputer.ComputerID
 
- 
+ Get-Alias
 
 
 
