@@ -16,6 +16,11 @@ $result.Name + $result.LinkSpeed | Out-GridView
 
  Write-Host "fin du script premiere partie"
 
+ $text = "bien"
+
+ if($text -eq "bien") {Write-Host "bien jouer"} else { Write-Host "Oupssss"}
+
+
 
 
  
