@@ -20,6 +20,10 @@ $result.Name + $result.LinkSpeed | Out-GridView
 
  if($text -eq "bien") {Write-Host "bien jouer"} else { Write-Host "Oupssss"}
 
+ $text2 ="tableau"
+ $nombrelettre = $text2.Length
+ Write-Host " il y a  $nombrelettre carractére dans le  du mot $text2"
+
 
 
 
