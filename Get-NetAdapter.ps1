@@ -14,6 +14,8 @@ $result.Name + $result.LinkSpeed | Out-GridView
  Pause
  cls
 
+ Write-Host "fin du script premiere partie"
+
 
 
  
