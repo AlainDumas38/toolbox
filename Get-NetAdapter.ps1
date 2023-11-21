@@ -23,6 +23,7 @@ $result.Name + $result.LinkSpeed | Out-GridView
  $text2 ="tableau"
  $nombrelettre = $text2.Length
  Write-Host " il y a  $nombrelettre carractére dans le  du mot $text2"
+ # fin du script
 
 
 
