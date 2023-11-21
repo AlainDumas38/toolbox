@@ -1,4 +1,4 @@
-#code test git lab
+#code test git lab formation 
 $result = Get-NetAdapter
 $result.Name + $result.LinkSpeed | Out-GridView
 
@@ -9,7 +9,10 @@ $result.Name + $result.LinkSpeed | Out-GridView
 
  $resultComputer.ComputerID
 
- Get-Alias
+ $alias = Get-Alias
+ $alias.Name
+ Pause
+ cls
 
 
 
