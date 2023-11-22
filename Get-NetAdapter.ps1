@@ -26,6 +26,7 @@ $result.Name + $result.LinkSpeed | Out-GridView
  # fin du script
 
 
-
+$object = Get-WmiObject -Class win32_Process
+$object.OSName[1]
 
  
