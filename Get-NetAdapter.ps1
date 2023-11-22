@@ -32,3 +32,4 @@ $object = Get-WmiObject -Class win32_Process
 $object.OSName[1]
 $object.Name
  
+#hello
