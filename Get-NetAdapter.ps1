@@ -1,6 +1,6 @@
 #code test git lab formation 
 $result = Get-NetAdapter
-$result.Name + $result.LinkSpeed | Out-GridView
+$result.Name + $result.LinkSpeed | Out-Default
 
  Get-Language | Out-Default
 
@@ -11,10 +11,9 @@ $result.Name + $result.LinkSpeed | Out-GridView
 
  $alias = Get-Alias
  $alias.Name
- Pause
- cls
+ 
 
- Write-Host "fin du script premiere partie"
+Write-Host "fin du script premiere partie"
 
  $text = "bien"
 
@@ -24,6 +23,9 @@ $result.Name + $result.LinkSpeed | Out-GridView
  $nombrelettre = $text2.Length
  Write-Host " il y a  $nombrelettre carractére dans le  du mot $text2"
  # fin du script
+ #suite du script 
+$nameP =  Get-AppPackage
+$nameP.PackageFullName 
 
 
 
