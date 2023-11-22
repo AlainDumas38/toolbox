@@ -31,5 +31,7 @@ $nameP.PackageFullName
 $object = Get-WmiObject -Class win32_Process
 $object.OSName[1]
 $object.Name
+
+#pausse dans le script
  
 #hello
