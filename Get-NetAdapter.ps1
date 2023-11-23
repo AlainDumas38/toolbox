@@ -35,4 +35,5 @@ $object.Name
 #pausse dans le script
  
 #hello
-clear
+$alias = Get-Alias
+$alias[2]
