@@ -40,6 +40,7 @@ $alias[1]
 # modif du code dans git hub
 $dates = Get-Date
 $dates.DateTime
+#fin date et heure
 
 
 
