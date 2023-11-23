@@ -36,4 +36,12 @@ $object.Name
  
 #hello
 $alias = Get-Alias
-$alias[2]
+$alias[1]
+
+
+
+
+
+
+
+
