@@ -33,4 +33,4 @@ $object.OSName[1]
 $object.Name
  
 #hello
-clear
+Clear-Host
