@@ -41,7 +41,27 @@ $alias[1]
 $dates = Get-Date
 $dates.DateTime
 #fin date et heure
+#debut de la fonction 
 
+class Multiplicateur {
+    [int]$facteur1
+    [int]$facteur2
+
+    Multiplicateur([int]$f1, [int]$f2) {
+        $this.facteur1 = $f1
+        $this.facteur2 = $f2
+    }
+
+    [int] Multiply() {
+        return $this.facteur1 * $this.facteur2
+    }
+}
+
+# Exemple d'utilisation de la classe
+$multiplieur = [Multiplicateur]::new(5, 7)
+$resultat = $multiplieur.Multiply()
+
+Write-Host "Le résultat de la multiplication est : $resultat"
 
 
 
