@@ -62,7 +62,7 @@ $multiplieur = [Multiplicateur]::new(5, 7)
 $resultat = $multiplieur.Multiply()
 
 Write-Host "Le résultat de la multiplication est : $resultat"
-
+#fin de la multiplication 
 
 
 
