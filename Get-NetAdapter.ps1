@@ -63,7 +63,7 @@ $resultat = $multiplieur.Multiply()
 
 Write-Host "Le résultat de la multiplication est : $resultat"
 #fin de la multiplication 
-
+Write-Host "nouvelle branche"
 
 
 
