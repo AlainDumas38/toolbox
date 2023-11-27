@@ -35,3 +35,5 @@ $object.Name
 #hello
 Clear-Host
 #the end
+# hello c lundi 
+
