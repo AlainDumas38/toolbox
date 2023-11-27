@@ -36,4 +36,6 @@ $object.Name
 Clear-Host
 #the end
 # hello c lundi 
+# hello je suis avec Loic le roi du powershell 
+
 
