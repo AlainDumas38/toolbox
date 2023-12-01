@@ -36,3 +36,4 @@ $object.Name
  
 #rafraichissement du code 
 Clear-Host
+Write-Host "hello c'et Vendredi "
